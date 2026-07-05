@@ -90,7 +90,7 @@
 </div>
 
 ###
-## Let's connect
+
 ![Let's connect](./lets_connect_cards.svg)
 
 ###
