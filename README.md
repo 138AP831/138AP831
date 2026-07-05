@@ -11,6 +11,7 @@
 </div>
 
 ###
+<h1 data-importer="text" align="left">Tech Stack</h1>
 
 <div data-importer="techs" align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
@@ -63,6 +64,7 @@
 </div>
 
 ###
+<h1 data-importer="text" align="left">Stats</h1>
 
 <div data-importer="stats" align="center">
   <img src="https://raw.githubusercontent.com/138AP831/138AP831/stats-output/stats.svg?hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
@@ -90,7 +92,7 @@
 </div>
 
 ###
-
+<h1 data-importer="text" align="left">Let's Connect!</h1>
 <div data-importer="socials" align="left">
   <a href="linkedin.com/in/anushka-peruvel-33b201287/" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
