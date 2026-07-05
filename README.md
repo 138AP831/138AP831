@@ -8,7 +8,8 @@
 </div>
 
 ###
-<h1 data-importer="text" align="left">Tech Stack</h1>
+![Tech Stack](./tech_stack_badge_simple.svg)
+
 
 <div data-importer="techs" align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
