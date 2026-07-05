@@ -8,7 +8,7 @@
 </div>
 
 ###
-![Tech Stack](./tech_stack_badge_simple.svg)
+![Tech Stack](./tech_stack_badge_simple_1.svg)
 
 
 <div data-importer="techs" align="left">
