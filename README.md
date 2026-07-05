@@ -2,7 +2,7 @@
 
 ###
 
-<p data-importer="text" align="left">💫 About Me:<br>🛰️ I'm currently working on: Building GenAI agent workflows — teaching machines to think, one prompt at a time<br><br>🤝 I'm looking to collaborate on: Agentic AI, chatbots, and automation projects that solve real problems (bonus points if they save someone hours of manual work)<br><br>🫴 I'm looking for help with: Exploring full-time opportunities in AI/ML where I can build things that don't just work in a demo<br><br>🌱 I'm currently learning: How to design and deploy AI agents using Salesforce Agentforce, Azure AI, and Vertex AI<br><br>💬 Ask me about: Generative AI, AI agents, Salesforce Agentforce, Machine Learning<br><br>⚡ Fun fact: I've earned 6+ AI/cloud certifications (Azure, Salesforce, Oracle, Google) during my final year — "collecting badges" is a hobby now</p>
+<p data-importer="text" align="left"><br>🛰️ I'm currently working on: Building GenAI agent workflows — teaching machines to think, one prompt at a time<br><br>🤝 I'm looking to collaborate on: Agentic AI, chatbots, and automation projects that solve real problems (bonus points if they save someone hours of manual work)<br><br>🫴 I'm looking for help with: Exploring full-time opportunities in AI/ML where I can build things that don't just work in a demo<br><br>🌱 I'm currently learning: How to design and deploy AI agents using Salesforce Agentforce, Azure AI, and Vertex AI<br><br>💬 Ask me about: Generative AI, AI agents, Salesforce Agentforce, Machine Learning<br><br>⚡ Fun fact: I've earned 6+ AI/cloud certifications (Azure, Salesforce, Oracle, Google) during my final year — "collecting badges" is a hobby now</p>
 
 ###
 
