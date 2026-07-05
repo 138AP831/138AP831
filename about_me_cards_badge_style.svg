@@ -1,0 +1,133 @@
+<svg viewBox="0 0 1040 480" xmlns="http://www.w3.org/2000/svg" font-family="Verdana, 'Segoe UI Rounded', 'Arial Rounded MT Bold', sans-serif">
+
+  <rect x="0" y="0" width="1040" height="480" fill="#0a0e14"/>
+
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="clip1"><rect x="20" y="60" width="320" height="190" rx="14"/></clipPath>
+    <clipPath id="clip2"><rect x="360" y="60" width="320" height="190" rx="14"/></clipPath>
+    <clipPath id="clip3"><rect x="700" y="60" width="320" height="190" rx="14"/></clipPath>
+    <clipPath id="clip4"><rect x="20" y="270" width="320" height="190" rx="14"/></clipPath>
+    <clipPath id="clip5"><rect x="360" y="270" width="320" height="190" rx="14"/></clipPath>
+    <clipPath id="clip6"><rect x="700" y="270" width="320" height="190" rx="14"/></clipPath>
+  </defs>
+
+  <text x="520" y="34" text-anchor="middle" font-size="20" font-weight="700" fill="#8fe9ff" letter-spacing="0.5">ABOUT ME</text>
+
+  <!-- ===================== Card 1 ===================== -->
+  <rect x="20" y="60" width="320" height="190" rx="14" fill="none" stroke="#4dffb8" stroke-width="2" filter="url(#glow)">
+    <animate attributeName="stroke" values="#4dffb8;#5ea8ff;#a98fff;#ffb84d;#ff5d8f;#5ee7ff;#4dffb8" dur="9s" begin="0s" repeatCount="indefinite"/>
+  </rect>
+  <g clip-path="url(#clip1)">
+    <rect x="20" y="60" width="110" height="190" fill="#0a0e14"/>
+    <rect x="130" y="60" width="210" height="190" fill="#4dffb8">
+      <animate attributeName="fill" values="#4dffb8;#5ea8ff;#a98fff;#ffb84d;#ff5d8f;#5ee7ff;#4dffb8" dur="9s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <text x="75" y="135" text-anchor="middle" font-size="24">🛰️</text>
+  <text x="75" y="162" text-anchor="middle" font-size="11" font-weight="700" fill="#c9f7ff" letter-spacing="0.4">CURRENTLY</text>
+  <text x="75" y="178" text-anchor="middle" font-size="11" font-weight="700" fill="#c9f7ff" letter-spacing="0.4">WORKING ON</text>
+  <text x="235" y="128" text-anchor="middle" font-size="11.5" font-weight="600" fill="#0a0e14">Building GenAI agent</text>
+  <text x="235" y="146" text-anchor="middle" font-size="11.5" font-weight="600" fill="#0a0e14">workflows — teaching</text>
+  <text x="235" y="164" text-anchor="middle" font-size="11.5" font-weight="600" fill="#0a0e14">machines to think, one</text>
+  <text x="235" y="182" text-anchor="middle" font-size="11.5" font-weight="600" fill="#0a0e14">prompt at a time</text>
+
+  <!-- ===================== Card 2 ===================== -->
+  <rect x="360" y="60" width="320" height="190" rx="14" fill="none" stroke="#5ea8ff" stroke-width="2" filter="url(#glow)">
+    <animate attributeName="stroke" values="#5ea8ff;#a98fff;#ffb84d;#ff5d8f;#5ee7ff;#4dffb8;#5ea8ff" dur="9s" begin="0.4s" repeatCount="indefinite"/>
+  </rect>
+  <g clip-path="url(#clip2)">
+    <rect x="360" y="60" width="110" height="190" fill="#0a0e14"/>
+    <rect x="470" y="60" width="210" height="190" fill="#5ea8ff">
+      <animate attributeName="fill" values="#5ea8ff;#a98fff;#ffb84d;#ff5d8f;#5ee7ff;#4dffb8;#5ea8ff" dur="9s" begin="0.4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <text x="415" y="128" text-anchor="middle" font-size="24">🤝</text>
+  <text x="415" y="155" text-anchor="middle" font-size="10.5" font-weight="700" fill="#c9f7ff" letter-spacing="0.3">LOOKING TO</text>
+  <text x="415" y="171" text-anchor="middle" font-size="10.5" font-weight="700" fill="#c9f7ff" letter-spacing="0.3">COLLABORATE</text>
+  <text x="415" y="187" text-anchor="middle" font-size="10.5" font-weight="700" fill="#c9f7ff" letter-spacing="0.3">ON</text>
+  <text x="575" y="120" text-anchor="middle" font-size="11" font-weight="600" fill="#0a0e14">Agentic AI, chatbots, and</text>
+  <text x="575" y="137" text-anchor="middle" font-size="11" font-weight="600" fill="#0a0e14">automation projects that</text>
+  <text x="575" y="154" text-anchor="middle" font-size="11" font-weight="600" fill="#0a0e14">solve real problems (bonus</text>
+  <text x="575" y="171" text-anchor="middle" font-size="11" font-weight="600" fill="#0a0e14">points if they save someone</text>
+  <text x="575" y="188" text-anchor="middle" font-size="11" font-weight="600" fill="#0a0e14">hours of manual work)</text>
+
+  <!-- ===================== Card 3 ===================== -->
+  <rect x="700" y="60" width="320" height="190" rx="14" fill="none" stroke="#a98fff" stroke-width="2" filter="url(#glow)">
+    <animate attributeName="stroke" values="#a98fff;#ffb84d;#ff5d8f;#5ee7ff;#4dffb8;#5ea8ff;#a98fff" dur="9s" begin="0.8s" repeatCount="indefinite"/>
+  </rect>
+  <g clip-path="url(#clip3)">
+    <rect x="700" y="60" width="110" height="190" fill="#0a0e14"/>
+    <rect x="810" y="60" width="210" height="190" fill="#a98fff">
+      <animate attributeName="fill" values="#a98fff;#ffb84d;#ff5d8f;#5ee7ff;#4dffb8;#5ea8ff;#a98fff" dur="9s" begin="0.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <text x="755" y="135" text-anchor="middle" font-size="24">🫴</text>
+  <text x="755" y="162" text-anchor="middle" font-size="11" font-weight="700" fill="#c9f7ff" letter-spacing="0.4">LOOKING FOR</text>
+  <text x="755" y="178" text-anchor="middle" font-size="11" font-weight="700" fill="#c9f7ff" letter-spacing="0.4">HELP WITH</text>
+  <text x="915" y="128" text-anchor="middle" font-size="11.5" font-weight="600" fill="#0a0e14">Exploring full-time</text>
+  <text x="915" y="146" text-anchor="middle" font-size="11.5" font-weight="600" fill="#0a0e14">opportunities in AI/ML</text>
+  <text x="915" y="164" text-anchor="middle" font-size="11.5" font-weight="600" fill="#0a0e14">where I can build things</text>
+  <text x="915" y="182" text-anchor="middle" font-size="11.5" font-weight="600" fill="#0a0e14">that don't just work in a demo</text>
+
+  <!-- ===================== Card 4 ===================== -->
+  <rect x="20" y="270" width="320" height="190" rx="14" fill="none" stroke="#ffb84d" stroke-width="2" filter="url(#glow)">
+    <animate attributeName="stroke" values="#ffb84d;#ff5d8f;#5ee7ff;#4dffb8;#5ea8ff;#a98fff;#ffb84d" dur="9s" begin="1.2s" repeatCount="indefinite"/>
+  </rect>
+  <g clip-path="url(#clip4)">
+    <rect x="20" y="270" width="110" height="190" fill="#0a0e14"/>
+    <rect x="130" y="270" width="210" height="190" fill="#ffb84d">
+      <animate attributeName="fill" values="#ffb84d;#ff5d8f;#5ee7ff;#4dffb8;#5ea8ff;#a98fff;#ffb84d" dur="9s" begin="1.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <text x="75" y="345" text-anchor="middle" font-size="24">🌱</text>
+  <text x="75" y="372" text-anchor="middle" font-size="11" font-weight="700" fill="#c9f7ff" letter-spacing="0.4">CURRENTLY</text>
+  <text x="75" y="388" text-anchor="middle" font-size="11" font-weight="700" fill="#c9f7ff" letter-spacing="0.4">LEARNING</text>
+  <text x="235" y="330" text-anchor="middle" font-size="11.5" font-weight="600" fill="#0a0e14">How to design and deploy</text>
+  <text x="235" y="348" text-anchor="middle" font-size="11.5" font-weight="600" fill="#0a0e14">AI agents using Salesforce</text>
+  <text x="235" y="366" text-anchor="middle" font-size="11.5" font-weight="600" fill="#0a0e14">Agentforce, Azure AI,</text>
+  <text x="235" y="384" text-anchor="middle" font-size="11.5" font-weight="600" fill="#0a0e14">and Vertex AI</text>
+
+  <!-- ===================== Card 5 ===================== -->
+  <rect x="360" y="270" width="320" height="190" rx="14" fill="none" stroke="#ff5d8f" stroke-width="2" filter="url(#glow)">
+    <animate attributeName="stroke" values="#ff5d8f;#5ee7ff;#4dffb8;#5ea8ff;#a98fff;#ffb84d;#ff5d8f" dur="9s" begin="1.6s" repeatCount="indefinite"/>
+  </rect>
+  <g clip-path="url(#clip5)">
+    <rect x="360" y="270" width="110" height="190" fill="#0a0e14"/>
+    <rect x="470" y="270" width="210" height="190" fill="#ff5d8f">
+      <animate attributeName="fill" values="#ff5d8f;#5ee7ff;#4dffb8;#5ea8ff;#a98fff;#ffb84d;#ff5d8f" dur="9s" begin="1.6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <text x="415" y="345" text-anchor="middle" font-size="24">💬</text>
+  <text x="415" y="372" text-anchor="middle" font-size="11" font-weight="700" fill="#c9f7ff" letter-spacing="0.4">ASK ME</text>
+  <text x="415" y="388" text-anchor="middle" font-size="11" font-weight="700" fill="#c9f7ff" letter-spacing="0.4">ABOUT</text>
+  <text x="575" y="337" text-anchor="middle" font-size="11.5" font-weight="600" fill="#0a0e14">Generative AI, AI agents,</text>
+  <text x="575" y="355" text-anchor="middle" font-size="11.5" font-weight="600" fill="#0a0e14">Salesforce Agentforce,</text>
+  <text x="575" y="373" text-anchor="middle" font-size="11.5" font-weight="600" fill="#0a0e14">Machine Learning</text>
+
+  <!-- ===================== Card 6 ===================== -->
+  <rect x="700" y="270" width="320" height="190" rx="14" fill="none" stroke="#5ee7ff" stroke-width="2" filter="url(#glow)">
+    <animate attributeName="stroke" values="#5ee7ff;#4dffb8;#5ea8ff;#a98fff;#ffb84d;#ff5d8f;#5ee7ff" dur="9s" begin="2s" repeatCount="indefinite"/>
+  </rect>
+  <g clip-path="url(#clip6)">
+    <rect x="700" y="270" width="110" height="190" fill="#0a0e14"/>
+    <rect x="810" y="270" width="210" height="190" fill="#5ee7ff">
+      <animate attributeName="fill" values="#5ee7ff;#4dffb8;#5ea8ff;#a98fff;#ffb84d;#ff5d8f;#5ee7ff" dur="9s" begin="2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <text x="755" y="355" text-anchor="middle" font-size="24">⚡</text>
+  <text x="755" y="382" text-anchor="middle" font-size="11" font-weight="700" fill="#c9f7ff" letter-spacing="0.4">FUN FACT</text>
+  <text x="915" y="322" text-anchor="middle" font-size="11" font-weight="600" fill="#0a0e14">I've earned 6+ AI/cloud</text>
+  <text x="915" y="339" text-anchor="middle" font-size="11" font-weight="600" fill="#0a0e14">certifications (Azure,</text>
+  <text x="915" y="356" text-anchor="middle" font-size="11" font-weight="600" fill="#0a0e14">Salesforce, Oracle, Google)</text>
+  <text x="915" y="373" text-anchor="middle" font-size="11" font-weight="600" fill="#0a0e14">during my final year —</text>
+  <text x="915" y="390" text-anchor="middle" font-size="11" font-weight="600" fill="#0a0e14">"collecting badges" is a hobby</text>
+
+</svg>
