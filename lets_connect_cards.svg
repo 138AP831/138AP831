@@ -1,0 +1,66 @@
+<svg viewBox="0 0 720 270" xmlns="http://www.w3.org/2000/svg" font-family="Verdana, 'Segoe UI Rounded', 'Arial Rounded MT Bold', sans-serif">
+
+  <rect x="0" y="0" width="720" height="270" fill="#0a0e14"/>
+
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="clipLinkedin"><rect x="20" y="60" width="320" height="190" rx="14"/></clipPath>
+    <clipPath id="clipGmail"><rect x="380" y="60" width="320" height="190" rx="14"/></clipPath>
+  </defs>
+
+  <text x="360" y="34" text-anchor="middle" font-size="20" font-weight="700" fill="#8fe9ff" letter-spacing="0.5">LET'S CONNECT</text>
+
+  <!-- ===================== Card 1: LinkedIn ===================== -->
+  <rect x="20" y="60" width="320" height="190" rx="14" fill="none" stroke="#5ea8ff" stroke-width="2" filter="url(#glow)">
+    <animate attributeName="stroke" values="#5ea8ff;#a98fff;#ffb84d;#ff5d8f;#5ee7ff;#4dffb8;#5ea8ff" dur="9s" begin="0s" repeatCount="indefinite"/>
+  </rect>
+  <g clip-path="url(#clipLinkedin)">
+    <rect x="20" y="60" width="110" height="190" fill="#0a0e14"/>
+    <rect x="130" y="60" width="210" height="190" fill="#5ea8ff">
+      <animate attributeName="fill" values="#5ea8ff;#a98fff;#ffb84d;#ff5d8f;#5ee7ff;#4dffb8;#5ea8ff" dur="9s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- LinkedIn logo mark -->
+  <rect x="50" y="125" width="50" height="50" rx="10" fill="#0a66c2"/>
+  <circle cx="63" cy="139" r="4.5" fill="#ffffff"/>
+  <rect x="58.5" y="147" width="9" height="21" fill="#ffffff"/>
+  <path d="M73 168 L73 147 L82 147 L82 150.5 C84 148 87 146.5 90.5 146.5 C97 146.5 100 150.5 100 158 L100 168 L91 168 L91 159 C91 155.5 89.5 153 86.5 153 C84 153 82 155 82 158.5 L82 168 Z" fill="#ffffff"/>
+
+  <text x="75" y="200" text-anchor="middle" font-size="12" font-weight="700" fill="#c9f7ff" letter-spacing="0.3">LINKEDIN</text>
+
+  <text x="235" y="150" text-anchor="middle" font-size="11.5" font-weight="600" fill="#0a0e14">linkedin.com/in/</text>
+  <text x="235" y="168" text-anchor="middle" font-size="11.5" font-weight="600" fill="#0a0e14">anushka-peruvel-</text>
+  <text x="235" y="186" text-anchor="middle" font-size="11.5" font-weight="600" fill="#0a0e14">33b201287</text>
+
+  <!-- ===================== Card 2: Gmail ===================== -->
+  <rect x="380" y="60" width="320" height="190" rx="14" fill="none" stroke="#ff5d8f" stroke-width="2" filter="url(#glow)">
+    <animate attributeName="stroke" values="#ff5d8f;#5ee7ff;#4dffb8;#5ea8ff;#a98fff;#ffb84d;#ff5d8f" dur="9s" begin="0.6s" repeatCount="indefinite"/>
+  </rect>
+  <g clip-path="url(#clipGmail)">
+    <rect x="380" y="60" width="110" height="190" fill="#0a0e14"/>
+    <rect x="490" y="60" width="210" height="190" fill="#ff5d8f">
+      <animate attributeName="fill" values="#ff5d8f;#5ee7ff;#4dffb8;#5ea8ff;#a98fff;#ffb84d;#ff5d8f" dur="9s" begin="0.6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Gmail logo mark -->
+  <rect x="408" y="128" width="54" height="40" fill="#ffffff"/>
+  <polygon points="408,128 435,150 462,128 462,133 435,155 408,133" fill="#ea4335"/>
+  <polygon points="408,133 408,168 421,168 421,143" fill="#4285f4"/>
+  <polygon points="462,133 462,168 449,168 449,143" fill="#34a853"/>
+  <polygon points="421,143 421,168 449,168 449,143 435,155" fill="#fbbc05"/>
+
+  <text x="435" y="200" text-anchor="middle" font-size="12" font-weight="700" fill="#c9f7ff" letter-spacing="0.3">GMAIL</text>
+
+  <text x="595" y="160" text-anchor="middle" font-size="11.5" font-weight="600" fill="#0a0e14">peruvel.anushka</text>
+  <text x="595" y="178" text-anchor="middle" font-size="11.5" font-weight="600" fill="#0a0e14">@gmail.com</text>
+
+</svg>
