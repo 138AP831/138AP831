@@ -1,4 +1,4 @@
-## About me
+
 ![About me](./about_me_cards_badge_style.svg)
 
 ###
